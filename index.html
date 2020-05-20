@@ -13,11 +13,13 @@
       header {
         border-style: none none solid none;
         color: rgb(131, 102, 23);
+        margin: 0 1.5em;
       }
 
       footer {
         border-style: solid none none none;
         color: rgb(131, 102, 23);
+        margin: 0 1.5em;
       }
 
       .footer-img {
@@ -50,6 +52,7 @@
       blockquote {
         background-color: rgb(248, 227, 212);
         padding: 10px;
+        margin: 10px auto;
         }
 
       ul li {
@@ -59,27 +62,45 @@
       
       section {
         float: left;
-        width: 70%;
+        width: 65%;
       }
-      
+
       article {
         clear: both;
       }
-        
+      
+      .text-smaller {
+
+      }
       aside {
         float: right;
         display: block;
-        width: 25%;
+        width: 23%;
         background-color: rgb(214, 214, 214);
         margin-right: 35px;
         margin-top: 45px;
         }
 
       .sidetext {
-        padding: 15px;
-        width:;
+        font: italic 18px arial;
         }
 
+      .container-section {
+          margin: 10px auto;
+          padding: 0 1.5em;
+        }
+
+      .container-aside {
+          margin-top: 5em;
+          margin-right: 1.5em;
+          padding:0 20px;
+        }
+
+      .container-article {
+          margin: 20px auto;
+          padding: 0 1.5em;
+        }
+        
     </style>
 </head>
 
@@ -89,9 +110,9 @@
       <h1>Save Orang Utan</h1>
     </header>
     
-    <section>
+    <section class="container-section">
       <h2>Orang Utan: Critically Endangered</h2>
-      <p>
+      <p class="text-float">
         It is common knowledge that <span class="important">many animals are currently threatened with extinction.</span> 
         And sadly, <span class="important">Orang Utan is one of them!</span>
         Based on the recent list of threatened species issued by WFF and National Geographic,
@@ -102,16 +123,16 @@
     </section>
     
 
-    <aside>
+    <aside class="container-aside">
       <p class="sidetext">
         Now, we have three species of Orang Utan! <a href="https://www.nationalgeographic.com/news/2017/11/new-orangutan-species-sumatra-borneo-indonesia-animals/" target="blank"><br>
         A new species of Orang Utan has been recently found in another part of Sumatra, Indonesia.</a>
       </p>
     </aside>
     
-    <article>
+    <article class="container-article">
       <h2>Help me save Orang Utan</h2>
-      <p>Even though we are not sitting on the parliament and can not change the law, we can still do something to help Orang Utan!
+      <p class="text-smaller">Even though we are not sitting on the parliament and can not change the law, we can still do something to help Orang Utan!
         Remember how Giant Panda's existence positively progress from Endangered to Vulnerable?
         That take lots of efforts and works from different parties, not only from the government, but also the science team and <span class="important">for Orang Utan the most important support coming from the society!</span> 
         That is how we are going to save Orang Utan, and some actions that we can do as a part of society are : </p>
