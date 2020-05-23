@@ -10,7 +10,7 @@ write a short description of your web page:
 
 ## Wireframe
 
-![wireframe](wireframe.jpg)
+![wireframe](images/wireframe.jpg)
 
 ## 0. Set-Up
 
